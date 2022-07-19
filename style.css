@@ -61,6 +61,7 @@ body {
     display: flex;
     align-items: center;
     column-gap: 100px;
+    margin-bottom: 70px;
 
 }
 .home-content{
@@ -101,9 +102,22 @@ body {
     border-radius: 50%;
     margin-right: 130px;
 }
-.home-img img{
-    
-}
+
 /* ====================
     Home section End
 ==================== */
+
+/* .other-logos section */
+.other-logos{
+    height: 110px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    margin: 0px auto;
+
+}
+
+/* product section */
