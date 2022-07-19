@@ -1,2 +1,109 @@
 /* -------------------GOOGLE FONTS-------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@700&family=Poppins:wght@600;700&display=swap');
+
+/* common style */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+.text-logo h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 10px 0px;
+}
+
+/* ====================
+    Header Start
+==================== */
+.header-scetion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px 70px 120px;
+    margin: 0px;
+}
+
+.header-scetion .text-logo h3 {
+    color: #3A3A3A;
+    ;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.menu .menu-item {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.menu .menu-item i {
+    font-size: 28px;
+}
+
+/* ====================
+    Header End
+==================== */
+/* ====================
+    Home section Start
+==================== */
+#home{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+
+}
+.home-content{
+    margin-left: 120px;
+}
+     
+.home-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin: 0px;
+}
+.home-text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+.home-content button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    border: none;
+}
+.home-content .fa-solid{
+    padding-left: 8px;
+}
+.home-img{
+    height: 475px;
+    width: 475px;
+    border: 3px solid #F1E4FF;
+    border-radius: 50%;
+    margin-right: 130px;
+}
+.home-img img{
+    
+}
+/* ====================
+    Home section End
+==================== */
